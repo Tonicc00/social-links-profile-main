@@ -48,5 +48,5 @@ multiple elements with just one declaration.
 
 ## Author
 
-- Website - [Add your name here](https://toni-jokic-portfolio.netlify.app/)
+- Website - [Toni J](https://toni-jokic-portfolio.netlify.app/)
 - Frontend Mentor - [@Tonicc00](https://www.frontendmentor.io/profile/Tonicc00)
