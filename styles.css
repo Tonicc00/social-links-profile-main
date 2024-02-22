@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+/* Remove margin and padding for every element */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Add to every element wich needs flexbox */
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* HTML */
+html{
+    height: 100vh;
+    width: 100vw;
+    font-size: 10px;
+    font-family: "Inter", sans-serif;
+}
+
+html, footer{
+    background-color: hsl(0, 0%, 8%);
+}
+
+/* BODY */
+body{
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    overflow: hidden;
+    padding: 4rem 0 1rem 0;
+
+}
+
+/* MAIN */
+main{
+    height: 95%;
+    width: 30%;
+    flex-direction: column;
+    justify-content: space-between !important; 
+    margin: 0 auto;
+    padding: 3rem 0;
+    background-color: hsl(0, 0%, 12%);
+
+}
+
+img{
+    height: 20%;
+    max-height: 150px;
+    border-radius: 50%;
+    /* margin: 5rem 0 0 0; */
+}
+
+#headings{
+    height: 20%;
+    width: 80%;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+#headings h1, h2, p{
+    width: 100%;
+    text-align: center;
+}
+
+#headings h1{
+    font-size: 2rem;
+    font-weight: 800;
+
+}
+#headings h2{
+    font-size: 1.3rem;
+    font-weight: 600;
+
+}
+#headings p{
+    font-size: 1.1rem;
+    font-weight: 500;
+
+}
+
+#links{
+    height: 60%;
+    width: 80%;
+}
+
+#links ul{
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+#links ul li{
+    height: 4rem;
+    width: 90%;
+    font-size: 1.5rem;
+    font-weight: 700;
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 10px
+}
+
+#links ul li:hover{
+    cursor: pointer;
+    background-color: greenyellow;
+    color:hsl(0, 0%, 12%);
+}
+
+
+h1, li{
+    color:hsl(0, 0%, 100%);
+}
+h2{
+    color: greenyellow;
+}
+ p{
+    color: grey;
+ }
+
+/* FOOTER */
+
+footer{
+    height: 5%;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+}
+
+footer a{
+    color: grey;
+}
+footer a:hover{
+    cursor: pointer;
+    color: greenyellow;
+}
+
+@media only screen and (max-width: 768px){
+    main{
+        width: 85%;
+    }
+}
